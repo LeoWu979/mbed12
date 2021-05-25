@@ -36,7 +36,7 @@ int main() {
    int i = 0;
    while (i <= 150) {
 
-      servo_control(-i);
+      servo_control(i);
 
       steps = 0;
       t.reset();

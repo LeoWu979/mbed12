@@ -37,7 +37,7 @@ int main() {
    while(1) {
 
    //TODO: revise this value according to your result
-   servo_control(-38.37);
+   servo_control(-31.01);
 
    steps = 0;
    t.reset();
@@ -51,7 +51,7 @@ int main() {
 
    ThisThread::sleep_for(100ms);
 
-   servo_control(82.345);
+   servo_control(43.05);
 
    steps = 0;
    t.reset();
